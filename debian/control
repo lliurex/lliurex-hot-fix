@@ -1,0 +1,20 @@
+Source: lliurex-hot-fixes
+Section: admin
+Priority: optional
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://lliurex.net
+#Vcs-Browser: https://salsa.debian.org/debian/lliurex-hot-fixes
+#Vcs-Git: https://salsa.debian.org/debian/lliurex-hot-fixes.git
+
+Package: lliurex-hot-fixes
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: hot-fixes 
+ Some fixes for lliurex
