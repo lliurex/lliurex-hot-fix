@@ -20,7 +20,7 @@ DIVERTED_PATH="/usr/share/lliurex-chromium/master_preferences.original"
 ORIGINAL_EXTENSION_FILE="/usr/share/chromium/extensions/cimiefiiaegbelhefglklhhakcgmhkai.json"
 DIVERTED_EXTENSION_FILE="/usr/share/lliurex-chromium/cimiefiiaegbelhefglklhhakcgmhkai.json"
 
-
+mkdir /usr/share/lliurex-chromium || true
 case "$1" in
     install|upgrade)
 	    rc=0
